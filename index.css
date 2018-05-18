@@ -24,7 +24,7 @@ td.opened {
 }
 
 td:nth-child(6) {
-  border-right: 2px dotted red;
+  border-right: 4px dotted red;
 }
 
 td.fronttooth {
