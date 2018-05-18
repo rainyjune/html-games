@@ -16,7 +16,7 @@
 table {
   border: 1px solid black;
   border-collapse: collapse;
-  background: url(bg.jpg) repeat;
+  background: url(images/bg.jpg) repeat;
 }
 
 td {
@@ -33,7 +33,7 @@ td.tooth {
 }
 
 td.opened {
-  background-image: url(tooth.jpg);
+  background-image: url(images/tooth.jpg);
 }
 
 td:nth-child(5) {
@@ -41,5 +41,5 @@ td:nth-child(5) {
 }
 
 td.fronttooth {
-  background-image: url(fronttooth.jpg);
+  background-image: url(images/fronttooth.jpg);
 }
