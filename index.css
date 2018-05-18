@@ -3,6 +3,7 @@ table {
   margin-right: auto;
   border: 1px solid black;
   border-collapse: collapse;
+  background: url(bg.jpg) repeat;
 }
 
 td {
