@@ -36,7 +36,7 @@ td.opened {
   background-image: url(tooth.jpg);
 }
 
-td:nth-child(6) {
+td:nth-child(5) {
   border-right: 4px dotted red;
 }
 
