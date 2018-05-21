@@ -68,6 +68,12 @@ td.fronttooth {
   background-image: url(../images/fronttooth.jpg);
 }
 
+td span {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
 i.fa-mysize {
   font-size: 8px;
   position: absolute;

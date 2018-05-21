@@ -32,6 +32,7 @@ $(function() {
 
   function showDots() {
     $('i.hide').removeClass('hide');
+    $('span.hide').removeClass('hide');
   }
 
   function showHorizonLine() {
