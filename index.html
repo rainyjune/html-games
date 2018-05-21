@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Game</title>
+    <link href="css/fontawesome-all.css" rel="stylesheet">
     <link media="all" rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -99,12 +100,12 @@
       <tr>
         <td></td>
         <td></td>
-        <td class="todo"></td>
+        <td class="todo special" style="position: relative;"><i class="fas fa-circle fa-mysize hide" style="right: -4px;"></i></td>
         <td></td>
         <td></td>
+        <td style="position: relative;"><i class="fas fa-angle-right"></i></td>
         <td></td>
-        <td></td>
-        <td class="opened tooth"></td>
+        <td class="opened tooth" style="position: relative;"><i class="fas fa-circle fa-mysize hide" style="left: -4px;"></i></td>
         <td></td>
         <td></td>
       </tr>
@@ -186,6 +187,7 @@
       <source src="audio/faster.mp3" type="audio/mpeg">
       Your browser does not support the <code>audio</code> element.
     </audio>
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
