@@ -1,0 +1,81 @@
+#container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  float: left;
+}
+
+#logo img {
+  width: 150px;
+  height: 152px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background: url(../images/bg4.jpg) repeat;
+}
+
+table.done tr:nth-child(8) td:nth-child(4),
+table.done tr:nth-child(8) td:nth-child(5),
+table.done tr:nth-child(8) td:nth-child(6),
+table.done tr:nth-child(8) td:nth-child(7) {
+  border-bottom: 2px dotted red;
+}
+
+i.fa-angle-right {
+  display: none;
+}
+
+table.done i.fa-angle-right {
+  display: block;
+  font-size: 16px; color: red; position: absolute; left: 0; bottom: -5px; transform:rotate(-45deg);
+}
+
+td {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+td.tooth {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+td.opened {
+  background-image: url(../images/tooth2.png);
+}
+
+td.special {
+  position: relative;
+}
+
+.hide {
+  display: none;
+}
+
+td:nth-child(5) {
+  border-right: 4px dotted red;
+}
+
+td.fronttooth {
+  background-image: url(../images/fronttooth2.png);
+}
+
+td span {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+i.fa-mysize {
+  font-size: 8px;
+  position: absolute;
+  bottom: -4px;
+}
