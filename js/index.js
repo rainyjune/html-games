@@ -8,11 +8,11 @@ $(function() {
 
   $('table').on('click', 'td', function() {
     var thisElement = $(this);
-    if (counter === 4){
+    if (counter === 5){
       showDots();
       counter++;
       return false;
-    } else if (counter === 5) {
+    } else if (counter === 6) {
       showHorizonLine();
       return false;
     }
