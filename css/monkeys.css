@@ -22,7 +22,7 @@
 .peach {
   width: 35px;
   height: 35px;
-  background-image: url(../images/peach.png);
+  background-image: url(../images/peach_bg.png);
   cursor: pointer;
 }
 
@@ -87,17 +87,17 @@
 .monkey:nth-child(13) {
   left: 100px;
   top: 590px;
-  background-image: url(../images/monkey1.png);
+  background-image: url(../images/imageedit_7_8708568107.png);
 }
 
 .monkey:nth-child(14) {
   left: 500px;
   top: 590px;
-  background-image: url(../images/monkey2.png);
+  background-image: url(../images/monkey2_bg.png);
 }
 
 .monkey:nth-child(15) {
   left: 300px;
   top: 590px;
-  background-image: url(../images/monkey3.png);
+  background-image: url(../images/monkey3_trans.png);
 }
