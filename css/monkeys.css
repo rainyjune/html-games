@@ -1,0 +1,103 @@
+#container,
+.peach,
+.monkey {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#container {
+  position: relative;
+  width: 900px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url(../images/tree.png);
+}
+
+.peach,
+.monkey {
+  position: absolute;
+}
+
+.peach {
+  width: 35px;
+  height: 35px;
+  background-image: url(../images/peach.png);
+  cursor: pointer;
+}
+
+
+.peach:nth-child(1) {
+  left: 230px;
+  top: 200px;
+}
+
+.peach:nth-child(2) {
+  left: 250px;
+  top: 290px;
+}
+
+.peach:nth-child(3) {
+  left: 300px;
+  top: 350px;
+}
+
+.peach:nth-child(4) {
+  left: 200px;
+  top: 400px;
+}
+.peach:nth-child(5) {
+  left: 574px;
+  top: 222px;
+}
+.peach:nth-child(6) {
+  left: 629px;
+  top: 290px;
+}
+.peach:nth-child(7) {
+  left: 480px;
+  top: 180px;
+}
+.peach:nth-child(8) {
+  left: 360px;
+  top: 254px;
+}
+.peach:nth-child(9) {
+  left: 400px;
+  top: 170px;
+}
+.peach:nth-child(10) {
+  left: 440px;
+  top: 300px;
+}
+.peach:nth-child(11) {
+  left: 650px;
+  top: 380px;
+}
+.peach:nth-child(12) {
+  left: 680px;
+  top: 180px;
+}
+
+.monkey {
+  width: 100px;
+  height: 100px;
+}
+
+.monkey:nth-child(13) {
+  left: 100px;
+  top: 590px;
+  background-image: url(../images/monkey1.png);
+}
+
+.monkey:nth-child(14) {
+  left: 500px;
+  top: 590px;
+  background-image: url(../images/monkey2.png);
+}
+
+.monkey:nth-child(15) {
+  left: 300px;
+  top: 590px;
+  background-image: url(../images/monkey3.png);
+}
