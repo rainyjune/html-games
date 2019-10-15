@@ -1,5 +1,15 @@
 $(function() {
   $(".peach").on('click', function() {
-    $(this).addClass('dropdown');
+    var element = $(this);
+    if (element.hasClass('dropdown')) return false;
+    if (element.hasClass('tips')) {
+      element.removeClass('tips').addClass('dropdown');
+    } else {
+      element.addClass('tips');
+      tippy(this, {
+        trigger: 'click',
+        interactive: true
+      }).show();
+    }
   });
 });
