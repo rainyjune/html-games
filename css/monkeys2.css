@@ -1,0 +1,51 @@
+#container,
+.peach,
+.monkey {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#container {
+  width: 900px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.item {
+  float: left;
+  width: 300px;
+  height: 700px;
+}
+
+.peaches {
+  width: 70px;
+  overflow: auto;
+}
+
+.peach {
+  width: 35px;
+  height: 35px;
+  background-image: url(../images/peach_bg.png);
+  float: left;
+}
+
+.monkey1,
+.monkey2,
+.monkey3 {
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.monkey1 {
+  background-image: url(../images/imageedit_7_8708568107.png);
+}
+
+.monkey2 {
+  background-image: url(../images/monkey2_bg.png);
+}
+
+.monkey3 {
+  background-image: url(../images/monkey3_trans.png);
+}
