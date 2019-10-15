@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Game</title>
     <link media="all" rel="stylesheet" href="css/monkeys2.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/dist/backdrop.css" />
   </head>
   <body>
     <div id="container">
@@ -23,7 +24,7 @@
           <div class="peach"></div>
           <div class="peach"></div>
         </div>
-        <div class="monkey1"></div>
+        <div class="monkey monkey1" data-tippy-content="我摘了12个桃"></div>
       </div>
       <div class="item">
         <div class="peaches">
@@ -40,7 +41,7 @@
           <div class="peach"></div>
           <div class="peach"></div>
         </div>
-        <div class="monkey2"></div>
+        <div class="monkey monkey2" data-tippy-content="我也摘了12个桃"></div>
       </div>
       <div class="item">
         <div class="peaches">
@@ -57,10 +58,12 @@
           <div class="peach"></div>
           <div class="peach"></div>
         </div>
-        <div class="monkey3"></div>
+        <div data-tippy-content="嘻嘻，我也摘了12个桃" class="monkey monkey3"></div>
       </div>
     </div>
     <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@5"></script>
     <script type="text/javascript" src="js/monkeys2.js"></script>
   </body>
 </html>
