@@ -24,8 +24,9 @@
   height: 35px;
   background-image: url(../images/peach_bg.png);
   cursor: pointer;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
-
 
 .peach:nth-child(1) {
   left: 230px;
@@ -77,6 +78,10 @@
 .peach:nth-child(12) {
   left: 680px;
   top: 180px;
+}
+
+.peach.dropdown {
+  top: 660px;
 }
 
 .monkey {
