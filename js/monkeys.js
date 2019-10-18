@@ -1,15 +1,18 @@
 $(function() {
-  $(".peach").on('click', function() {
-    var element = $(this);
-    if (element.hasClass('dropdown')) return false;
-    if (element.hasClass('tips')) {
-      element.removeClass('tips').addClass('dropdown');
-    } else {
-      element.addClass('tips');
-      tippy(this, {
-        trigger: 'click',
-        interactive: true
-      }).show();
-    }
+  $(".peach").each(function(index, element) {
+    $(element).data('tippy', tippy(element, {
+      maxWidth: 900,
+      trigger: 'click',
+      interactive: true
+    })).on('click', function() {
+      var el = $(this);
+      if (el.hasClass('dropdown')) return false;
+      if (el.hasClass('tips')) {
+        el.removeClass('tips').addClass('dropdown').data('tippy').destroy();
+        document.getElementById('bgaudio').play();
+      } else {
+        el.addClass('tips').data('tippy').show();
+      }
+    });
   });
 });
