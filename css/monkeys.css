@@ -106,3 +106,20 @@
   top: 590px;
   background-image: url(../images/monkey3_trans.png);
 }
+
+.tippy-popper {
+  width: 900px;
+  height: 300px;
+  line-height: 200px;
+  font-size: 100px;
+}
+
+.tippy-tooltip {
+  width: 100% !important;
+  height: 100%;
+  max-width: initial !important;
+}
+
+.tippy-content {
+  font-size: 100px;
+}
